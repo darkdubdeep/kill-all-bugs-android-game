@@ -1,0 +1,2 @@
+rootProject.name = "Kill All Bugs"
+include ':app'
