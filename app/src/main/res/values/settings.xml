@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item format="integer" name="record" type="integer">123124</item>
+    <string name="playerName">""</string>
+    <item format="integer" name="record" type="integer">0</item>
+    <item format="integer" name="bugsCount" type="integer">0</item>
 </resources>
