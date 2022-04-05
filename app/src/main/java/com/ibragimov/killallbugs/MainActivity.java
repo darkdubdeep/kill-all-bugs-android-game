@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        if(!isNavigation) {
             // save player name to settings
             TextInputLayout nameTextInput = (TextInputLayout)findViewById(R.id.nameInput);
             String playerName = String.valueOf(Objects.requireNonNull(nameTextInput.getEditText()).getText());
@@ -65,7 +64,5 @@ public class MainActivity extends AppCompatActivity {
             int bugsCoung = Integer.parseInt(String.valueOf(bugsCountInput.getText()));
             editor.putInt("bugsCount",bugsCoung);
             editor.apply();
-        }
-
     }
 }
